@@ -9,8 +9,8 @@
 }
 
 .App-header {
-  background-color: #CD533B;
-  /* background: url(/Img/header.jpg); */
+  background-color: #cd533b;
+  /*background: url(path/to/pic);*/
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -25,7 +25,7 @@
 }
 
 #footer {
-  background-color: #CD533B;
+  background-color: #cd533b;
   height: 50px;
 }
 
@@ -38,7 +38,7 @@
 
 .roles {
   opacity: 0.5;
-  background-color: #531CB3;
+  background-color: #531cb3;
   color: #ffffff;
   padding: 20px;
 }
@@ -48,6 +48,14 @@
   background-color: #802392;
   color: #ffffff;
   padding: 20px;
+}
+
+.card-title {
+  color: #000000;
+}
+
+.card-text {
+  color: #000000;
 }
 
 @keyframes App-logo-spin {
