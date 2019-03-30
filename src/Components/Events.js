@@ -8,8 +8,8 @@ import SprintRetrospective from "./SprintRetrospective";
 class Events extends Component {
   render() {
     return (
-      <div className="container">
-        <div className="col-xs-12">
+      <div id="events" className="container">
+        <div className="col-xs-12 animated fadeInLeft delay-7s">
           <h1> Events </h1>{" "}
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.Integer

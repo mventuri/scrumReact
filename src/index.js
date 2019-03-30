@@ -6,9 +6,11 @@ import Intro from "./Components/Intro";
 import Roles from "./Components/Roles";
 import Events from "./Components/Events";
 import Bottom from "./Components/Bottom";
+import Menu from "./Components/Menu";
 import * as serviceWorker from "./serviceWorker";
 import "bootstrap/dist/css/bootstrap.css";
 
+ReactDOM.render(<Menu />, document.getElementById("menu"));
 ReactDOM.render(<App />, document.getElementById("root"));
 ReactDOM.render(<Intro />, document.getElementById("intro"));
 ReactDOM.render(<Roles />, document.getElementById("roles"));

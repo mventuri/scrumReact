@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class DevelopmentTeam extends Component {
   render() {
     return (
-      <div className="col-xs-12 col-md-3 card">
+      <div className="col-xs-12 col-md-4 card">
         <div className="card-body">
           <img
             class="card-img-top"

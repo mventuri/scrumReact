@@ -3,8 +3,8 @@ import React, { Component } from "react";
 class Sprint extends Component {
   render() {
     return (
-      <div className="col-xs-12">
-        <h1> Sprint </h1>
+      <div className="col-xs-12 animated fadeInLeft delay-7s">
+        <h1> Sprint </h1>{" "}
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.Integer risus
           felis, volutpat sit amet dictum in , dapibus nec enim.Sed quis eros et
@@ -17,7 +17,7 @@ class Sprint extends Component {
           non.Mauris rhoncus cursus venenatis.Mauris sit amet nunc non sem
           cursus porttitor elementum eget turpis.Donec euismod sem in commodo
           fermentum.Phasellus elementum eu eros eu sollicitudin.{" "}
-        </p>
+        </p>{" "}
       </div>
     );
   }

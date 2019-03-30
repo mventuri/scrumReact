@@ -3,23 +3,28 @@ import React, { Component } from "react";
 class Intro extends Component {
   render() {
     return (
-      <div className="container">
-        <div className="col-xs-12">
-          <h1> What is Scrum</h1>
+      <div id="what" className="container">
+        <div className="col-xs-12 animated fadeInLeft delay-6s">
+          <h1> What is Scrum ? </h1>{" "}
           <p>
-            Aenean iaculis nunc eget enim porta, sit amet semper arcu dapibus.
-            Maecenas maximus risus eu rhoncus mollis. Donec id hendrerit enim.
-            Etiam magna purus, dapibus non sollicitudin id, vulputate ut sem.
-            Nullam a elementum urna. In convallis ligula in erat porttitor,
-            vitae posuere diam sollicitudin. Mauris viverra, neque at bibendum
-            pulvinar, lorem metus ultricies nunc, ac malesuada justo dolor
-            iaculis mauris. Donec finibus, ipsum vitae bibendum mattis, nibh
-            mauris sagittis magna, eu consectetur mi lacus vel velit. Etiam
-            scelerisque lacinia cursus. Fusce lobortis bibendum arcu, ac tempor
-            nibh feugiat nec. Sed pulvinar rhoncus mi, in rhoncus eros
-            ullamcorper quis. Nunc pellentesque diam sit amet tempus laoreet.
+            Scrum is a framework within which people can address complex
+            adaptive problems, while productively and creatively delivering
+            products of the highest possible value. Scrum itself is a simple
+            framework for effective team collaboration on complex products.Scrum
+            co - creators Ken Schwaber and Jeff Sutherland have written The
+            Scrum Guide to explain Scrum clearly and succinctly.This Guide
+            contains the definition of Scrum.This definition consists of Scrum’
+            s roles, events, artifacts, and the rules that bind them together.
+          </p>{" "}
+          <p>
+            Scrum is:
+            <ol>
+              <li>Lightweight</li>
+              <li>Simple to understand</li>
+              <li>Difficult to master</li>
+            </ol>
           </p>
-        </div>
+        </div>{" "}
       </div>
     );
   }

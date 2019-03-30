@@ -2,34 +2,33 @@ import React, { Component } from "react";
 import ProductOwner from "./ProductOwner";
 import ScrumMaster from "./ScrumMaster";
 import DevelopmentTeam from "./DevelopmentTeam";
-import Stakeholders from "./Stakeholders";
 
 class Roles extends Component {
   render() {
     return (
-      <div className="container">
-        <div className="col-xs-12">
-          <h1> Roles in Scrum </h1>
+      <div id="roles" className="container">
+        <div className="col-xs-12 animated fadeInRight delay-8s">
+          <h1> Roles in Scrum </h1>{" "}
           <p>
-            Aenean iaculis nunc eget enim porta, sit amet semper arcu
-            dapibus.Maecenas maximus risus eu rhoncus mollis.Donec id hendrerit
-            enim.Etiam magna purus, dapibus non sollicitudin id, vulputate ut
-            sem.Nullam a elementum urna.In convallis ligula in erat porttitor,
-            vitae posuere diam sollicitudin.Mauris viverra, neque at bibendum
-            pulvinar, lorem metus ultricies nunc, ac malesuada justo dolor
-            iaculis mauris.Donec finibus, ipsum vitae bibendum mattis, nibh
-            mauris sagittis magna, eu consectetur mi lacus vel velit.Etiam
-            scelerisque lacinia cursus.Fusce lobortis bibendum arcu, ac tempor
-            nibh feugiat nec.Sed pulvinar rhoncus mi, in rhoncus eros
-            ullamcorper quis.Nunc pellentesque diam sit amet tempus laoreet.
-          </p>
+            Scrum has three roles: product owner, scrum master and the
+            development team members.While this is pretty clear, what to do with
+            existing job titles can get confusing.Many teams ask if they need to
+            change their titles when adopting scrum.The short answer is no. The
+            three scrum roles describe the key responsibilities for those on the
+            scrum team. They aren’t job titles. This means that any job title,
+            even your existing ones, can perform one of the roles. Because the
+            essence of Scrum is empiricism, self-organization, and continuous
+            improvement, the three roles give a minimum definition of
+            responsibilities and accountability to allow teams to effectively
+            deliver work. This allows teams to take responsibility for how they
+            organize and to keep improving themselves.{" "}
+          </p>{" "}
           <div className="row">
             <ProductOwner />
             <ScrumMaster />
             <DevelopmentTeam />
-            <Stakeholders />
-          </div>
-        </div>
+          </div>{" "}
+        </div>{" "}
       </div>
     );
   }
