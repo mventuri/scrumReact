@@ -43,7 +43,7 @@
 
 #footer {
   background-color: #cd533b;
-  height: 50px;
+
 }
 
 .intro {
@@ -81,6 +81,16 @@
 
 p {
   text-align: justify;
+}
+
+.footer {
+  color: #fff;
+  background-color: #cd533b;
+}
+
+.credits {
+  padding-top: 10px;
+  text-align: center;
 }
 
 

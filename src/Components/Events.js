@@ -12,17 +12,16 @@ class Events extends Component {
         <div className="col-xs-12 animated fadeInLeft delay-7s">
           <h1> Events </h1>{" "}
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.Integer
-            risus felis, volutpat sit amet dictum in , dapibus nec enim.Sed quis
-            eros et magna tempor scelerisque.Vestibulum quis urna a libero
-            dapibus tristique.Vestibulum pellentesque, metus rhoncus ornare
-            ornare, massa sapien placerat urna, vitae tincidunt urna ipsum in
-            justo.Curabitur mattis urna quis metus vestibulum pharetra.Orci
-            varius natoque penatibus et magnis dis parturient montes, nascetur
-            ridiculus mus.Vivamus feugiat congue turpis, vitae volutpat eros
-            malesuada non.Mauris rhoncus cursus venenatis.Mauris sit amet nunc
-            non sem cursus porttitor elementum eget turpis.Donec euismod sem in
-            commodo fermentum.Phasellus elementum eu eros eu sollicitudin.{" "}
+            Perhaps THE most important element to Scrum and Agile is the
+            enthusiasm for communication, openness and transparency. These
+            factors underpin everything we do in our daily work using Agile and
+            Scrum practices; they are why we value customer collaboration over
+            contract negotiations and why we’re not afraid to respond to change
+            as we know that feedback is important. It is with this call for open
+            communication that Scrum encourages us to hold five key events
+            during a Sprint, all intended to help us work efficiently and
+            closely together, as well as to improve our knowledge and become
+            more effective in the future.{" "}
           </p>{" "}
         </div>{" "}
         <Sprint />
