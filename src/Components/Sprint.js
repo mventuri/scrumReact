@@ -1,16 +1,35 @@
+import Accordion from "./Accordion";
 import React, { Component } from "react";
 
 class Sprint extends Component {
   render() {
     return (
-      <div className="col-xs-12 animated fadeInLeft delay-7s">
-        <h1> Sprint </h1>{" "}
-        <p>
-          A scrum sprint is a regular, repeatable work cycle in scrum
-          methodology during which work is completed and made ready for review.
-          Scrum sprints are basic units of development in the scrum methodology.
-          Generally, scrum sprints are less than 30 days long.{" "}
-        </p>{" "}
+      <div className="col-xs-12">
+        <Accordion>
+          <div label="Alligator Mississippiensis">
+            <p>
+              <strong>Common Name:</strong> American Alligator
+            </p>
+            <p>
+              <strong>Distribution:</strong> Texas to North Carolina, United
+              States
+            </p>
+            <p>
+              <strong>Endangered Status:</strong> Currently Not Endangered
+            </p>
+          </div>
+          <div label="Alligator Sinensis">
+            <p>
+              <strong>Common Name:</strong> Chinese Alligator
+            </p>
+            <p>
+              <strong>Distribution:</strong> Eastern China
+            </p>
+            <p>
+              <strong>Endangered Status:</strong> Critically Endangered
+            </p>
+          </div>
+        </Accordion>
       </div>
     );
   }

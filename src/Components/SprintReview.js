@@ -1,24 +1,35 @@
 import React, { Component } from "react";
+import Accordion from "./Accordion";
 
 class SprintReview extends Component {
   render() {
     return (
-      <div className="col-xs-12 col-md-3 card">
-        <div className="card-body">
-          <img
-            class="card-img-top"
-            src="https://images.unsplash.com/photo-1553640849-9cc4fea9735b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
-            alt="Card image cap"
-          />
-          <h5 class="card-title">Sprint Review</h5>
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </p>
-          <a href="#" class="btn btn-primary">
-            More
-          </a>
-        </div>
+      <div className="col-xs-12">
+        <Accordion>
+          <div label="Alligator Mississippiensis">
+            <p>
+              <strong>Common Name:</strong> American Alligator
+            </p>
+            <p>
+              <strong>Distribution:</strong> Texas to North Carolina, United
+              States
+            </p>
+            <p>
+              <strong>Endangered Status:</strong> Currently Not Endangered
+            </p>
+          </div>
+          <div label="Alligator Sinensis">
+            <p>
+              <strong>Common Name:</strong> Chinese Alligator
+            </p>
+            <p>
+              <strong>Distribution:</strong> Eastern China
+            </p>
+            <p>
+              <strong>Endangered Status:</strong> Critically Endangered
+            </p>
+          </div>
+        </Accordion>
       </div>
     );
   }
